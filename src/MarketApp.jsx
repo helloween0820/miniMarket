@@ -1,9 +1,10 @@
 import React from "react";
+import { AppRouter } from "./router/AppRouter";
 
 export const MarketApp = () => {
   return (
     <>
-      <h1>MarketApp</h1>
+      <AppRouter />
     </>
   );
 };
