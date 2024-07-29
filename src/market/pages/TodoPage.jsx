@@ -6,7 +6,7 @@ export const TodoPage = () => {
     <>
       <h1 className="p-2"> Todos Los Productos </h1>
       <hr />
-      <div className="row rows-cols-1 row-cols-md-3 g-3 p-3">
+      <div className="row rows-cols-1 row-cols-md-3 g-3 p-3 animate__animated animate__fadeIn">
         {productos.map((producto) => (
           <>
             <div className="col">

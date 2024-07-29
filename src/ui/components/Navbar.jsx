@@ -43,12 +43,20 @@ export const Navbar = () => {
           >
             Aseo
           </NavLink>
+          <NavLink
+            className={({ isActive }) =>
+              `nav-item nav-link ${isActive ? "active" : ""} `
+            }
+            to="/buscar"
+          >
+            Busqueda
+          </NavLink>
         </div>
       </div>
 
       <div className="navbar-collapse collapse w-100 order-3 dual-collapse2 justify-content-end">
         <ul className="navbar-nav ml-auto">
-          <span className="nav-item nav-link text-primary">Sebastian</span>
+          <span className="nav-item nav-link text-primary">Omar</span>
           <button className="nav-item nav-link btn" onClick={logout}>
             logout
           </button>
